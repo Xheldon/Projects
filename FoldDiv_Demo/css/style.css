@@ -1,0 +1,81 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 1700px;
+    position: relative;
+    overflow: hidden;
+    perspective: 2000px;
+    transform: translate3d(0px, 0px, 0px);
+    transform-style: preserve-3d;
+    transition-property: transform;
+    perspective-origin: 750px;
+}
+ul{
+    position: absolute;
+}
+.placeholder{
+    height: 200px;
+}
+.mask{
+    position: absolute;
+    width: 1200px;
+    height: 1500px;
+    background: black;
+    opacity: 0.4;
+    display: none;
+}
+.hide-mask{
+    position: absolute;
+    width: 450px;
+    height: 1500px;
+    background: black;
+    opacity: 0.4;
+    display: none;
+}
+
+.container-one{
+    width: 1200px;
+    height: 1500px;
+    position: absolute;
+    background: #0b97c4;
+}
+
+.click-fold{
+    position: absolute;
+    left:450px;
+}
+.container-two{
+    width: 450px;
+    height: 1500px;
+    position: absolute;
+    left: 750px;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: transform 1s ease 0s;
+    outline: 1px solid transparent;
+}
+.content-mask{
+    overflow: hidden;
+    position: absolute;
+    width: 450px;
+    height: 1500px;
+
+}
+.content-hide{
+    width: 900px;
+    height: 1500px;
+    position: absolute;
+    top: 0;
+    left: 450px;
+    background: yellow;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: all 1s ease 0s;
+    outline: 1px solid transparent;
+    z-index: 10;
+}
+.content-hide button{
+    z-index: 100;
+    position: absolute;
+    left: 200px;
+}

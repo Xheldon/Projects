@@ -1,0 +1,62 @@
+#outer_dial{
+    margin-left:50%;
+    position: relative;
+
+}
+    #inner_dial{
+        border: 2px solid black;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        left: -150px;
+        position: absolute;
+        box-shadow: 0 0 20px 5px black inset;
+    }
+        #scale{
+            width: 0;
+            height: 0;
+            background-color: white;
+            position: absolute;
+            top: 149px;
+            left: 150px;
+        }
+        .center{
+            width: 4px;
+            height: 4px;
+            border-radius: 3px;
+            background-color: red;
+            position: absolute;
+            top: 148px;
+            left: 148px;
+        }
+    .common_hand{
+        position: absolute;
+    }
+    #second_hand{
+        top: 32px;
+        left: 1px;
+        width: 2px;
+        height: 170px;
+        border-radius: 1px;
+        background-color: darkgrey;
+        transform-origin: 1px 120px;
+    }
+    #minute_hand{
+        top: 77px;
+        left: 1px;
+        width: 2px;
+        height: 100px;
+        border-radius: 1px;
+
+        background-color: blue;
+        transform-origin: 1px 75px;
+    }
+    #hour_hand{
+        top: 82px;
+        left: 1px;
+        width: 2px;
+        height: 80px;
+        border-radius: 1px;
+        background-color: red;
+        transform-origin: 1px 70px;
+    }

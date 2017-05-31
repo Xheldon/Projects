@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "app.css",
+	"sources": [
+		"app.scss"
+	],
+	"sourcesContent": [
+		"/*panel负责旋转*/\n/*mask负责遮罩*/\n/*content负责内容展示*/\n/*几等分由第一个panel的width占的百分比决定*/\n*{\n    margin: 0;\n    padding: 0;\n}\n#click{\n    width: 100%;\n    height: 100px;\n    background-color: #0b68aa;\n    font-size: 1rem;\n    color: whitesmoke;\n    border:none;\n}\n.want-fold{\n    //需要折叠div的样式\n    width: 100%;\n    height: 500px;\n    position: relative;\n    font-size: 1.2rem;\n    color: wheat;\n    border: 10px solid cadetblue;\n    box-sizing: border-box;\n    margin:20px 0;\n    word-wrap: break-word;\n    word-break: normal;\n}\np{\n    height: 10%;\n    line-height: 280%;\n    width: 100%;\n}\nimg{\n    margin-top: 5%;\n    display: block;\n    height: 85%;\n    line-height: 85%;\n    width: 100%;\n}\n"
+	],
+	"mappings": ";AAAA,qBAAqB;AACrB,oBAAoB;AACpB,6BAA6B;AAC7B,2DAA2D;AAC3D,CAAC,CAAA;EACG,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE,GACd;;AACD,MAAM,CAAA;EACF,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,KAAM;EACd,gBAAgB,EAAE,OAAQ;EAC1B,SAAS,EAAE,IAAK;EAChB,KAAK,EAAE,UAAW;EAClB,MAAM,EAAC,IAAK,GACf;;AACD,UAAU,CAAA;EAEN,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,KAAM;EACd,QAAQ,EAAE,QAAS;EACnB,SAAS,EAAE,MAAO;EAClB,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,oBAAqB;EAC7B,UAAU,EAAE,UAAW;EACvB,MAAM,EAAC,MAAO;EACd,SAAS,EAAE,UAAW;EACtB,UAAU,EAAE,MAAO,GACtB;;AACD,CAAC,CAAA;EACG,MAAM,EAAE,GAAI;EACZ,WAAW,EAAE,IAAK;EAClB,KAAK,EAAE,IAAK,GACf;;AACD,GAAG,CAAA;EACC,UAAU,EAAE,EAAG;EACf,OAAO,EAAE,KAAM;EACf,MAAM,EAAE,GAAI;EACZ,WAAW,EAAE,GAAI;EACjB,KAAK,EAAE,IAAK,GACf",
+	"names": []
+}
