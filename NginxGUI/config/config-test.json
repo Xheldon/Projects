@@ -1,0 +1,1 @@
+{"nginxConfigPath":"/usr/local/etc/nginx/nginx.conf","commonInterfaceList":[{"label":"线上","value":"http://eb.meituan.com"},{"label":"http://1900-ortcb-sl-eb.hotel.test.sankuai.com","value":"http://1900-ortcb-sl-eb.hotel.test.sankuai.com"}],"current":{"label":"http://1900-ortcb-sl-eb.hotel.test.sankuai.com","value":"http://1900-ortcb-sl-eb.hotel.test.sankuai.com"}}
