@@ -14,7 +14,7 @@
         <modal v-show="inputModalShow" @ok="modalOperate('pw','ok')" @no="modalOperate('pw','no')" :options="modalOptions">
             <input type="text" v-model="pw">
         </modal>
-        <modal v-show="inputModalShow" @ok="modalOperate('add','ok')" @no="modalOperate('add','no')" :options="modalOptions">
+        <modal v-show="addModalShow" @ok="modalOperate('add','ok')" @no="modalOperate('add','no')" :options="modalOptions">
             <label>名称:<input type="text" v-model="add.label"></label>
             <label>值:<input type="text" v-model="add.value"></label>
         </modal>
@@ -37,6 +37,7 @@
                 current: this.$store.state.config.current.value,
                 pw: '',
                 inputModalShow: false,
+                addModalShow: false,
                 willDo: '',
                 modalOptions: {
                     title: '请输入管理员密码:',
